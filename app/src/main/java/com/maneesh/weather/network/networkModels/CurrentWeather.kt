@@ -2,7 +2,7 @@ package com.maneesh.weather.network.networkModels
 
 import com.squareup.moshi.Json
 
-data class currentWeather (
+data class CurrentWeatherModel (
     val coord: Coord,
     val weather: List<Weather>,
     val base: String,

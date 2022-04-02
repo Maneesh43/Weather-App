@@ -4,15 +4,10 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
-import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import com.maneesh.weather.ViewModels.WeatherViewModel
 import com.maneesh.weather.ui.theme.WeatherTheme
@@ -34,10 +29,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String) {
-    Box(modifier=Modifier.fillMaxHeight().fillMaxHeight().background(Color.White)) {
     Text(text = "Maneesh")
-    }
-    
 }
 
 @Preview(showBackground = true)
